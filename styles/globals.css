@@ -18,3 +18,52 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.83rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(100, 100, 100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff2147;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #be1833;
+}
